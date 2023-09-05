@@ -45,7 +45,7 @@ const Modal: React.FC<ModalProps> = ({
 
     setTimeout(() => {
       onClose();
-    }, 3000);
+    }, 300);
   }, [disabled, onClose]);
 
   const handleSubmit = useCallback(() => {
